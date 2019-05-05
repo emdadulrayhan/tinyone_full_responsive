@@ -1,0 +1,240 @@
+ /*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+/*header start*/
+.menu ul li a {
+    padding: 0 0!important;
+    text-align: right;
+    font-size: 20px;
+}
+    /*<!-- slider start -->*/
+.inspire {
+    margin-top: 0;
+}
+.inspire h1 {
+    font-size: 29px;
+}
+.ci li {
+    width: 9px;
+    height: 9px;
+}
+.inspire ul li i {
+    font-size: 38px;
+}
+.ci {
+    bottom: -60px;
+}
+.slider {
+    padding-bottom: 75px;
+}
+.list-in {
+    padding-left: 70px;
+}
+/*features staret*/
+.features {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.feature_content {
+    margin-bottom: 50px;
+}
+.icon {
+    font-size: 40px;
+}
+.icon_content h2 {
+    font-size: 17px;
+}
+.icon_content p {
+    font-size: 16px;
+}
+.single_item {
+    margin-bottom: 30px;
+    text-align: center;
+}
+/*=======contact start=======*/
+.contact {
+    padding-top: 40px;
+    padding-bottom: 55px;
+}
+.contact_content h1 {
+    font-size: 26px;
+}
+.contact_content p {
+    font-size: 16px;
+    word-spacing: 1px;
+}
+.for_form {
+    margin-bottom: 20px;
+}
+.email {
+    height: 35px;
+    margin-bottom: 15px;
+}
+.btn-custom {
+    height: 35px;
+    margin-bottom: 10px;
+}
+.contact_content ul li a {
+    font-size: 35px;
+    padding: 0 10px;
+}
+.list-custom{
+        margin-right:0;
+}
+/*=======contact end=======*/
+/*footr start*/
+address{
+    text-align: center;
+}
+.footer {
+    margin-top: 50px;
+}
+/*footr start*/
+
+
+
+}
+
+ /*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+/*header start*/
+header {
+    padding-bottom: 10px;
+}
+.menu ul li a {
+    padding: 0 0!important;
+    text-align: right;
+}
+    /*<!-- slider start -->*/
+.inspire {
+    margin-top: 25px;
+}
+.ci li {
+    width: 10px;
+    height: 10px;
+}
+.list-in {
+    padding-left: 170px;
+}
+/*features staret*/
+.features {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.feature_content {
+    margin-bottom: 40px;
+}
+
+.icon_content h2 {
+    font-size: 19px;
+}
+.single_item {
+    margin-bottom: 30px;
+}
+/*=======contact start=======*/
+.contact {
+    padding-top: 50px;
+    padding-bottom: 65px;
+}
+.contact_content h1 {
+    font-size: 30px;
+}
+.contact_content p {
+    font-size: 16px;
+    word-spacing: 1px;
+}
+.email {
+    height: 40px;
+}
+.btn-custom {
+    height: 40px;
+}
+.contact_content ul li a {
+    font-size: 35px;
+    padding: 0 10px;
+}
+.contact_content ul li:first-child a {
+    padding-left: 0;
+}
+.list-custom{
+        margin-right: 0px;
+}
+/*=======contact end=======*/
+/*footer start*/
+address{
+    font-size: 14px;
+}
+.footer {
+    margin-top: 70px;
+}
+/*footer end*/
+
+
+
+
+
+
+}
+
+ /*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+/*header start*/
+.menu ul li a {
+    padding: 0 0!important;
+    text-align: right;
+}
+    /*<!-- slider start -->*/
+.inspire {
+    margin-top: 40px;
+}
+.ci li {
+    width: 12px;
+    height: 12px;
+}
+/*features staret*/
+.features {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.feature_content {
+    margin-bottom: 50px;
+}
+.icon {
+    font-size: 40px;
+}
+.icon_content h2 {
+    font-size: 17px;
+}
+.icon_content p {
+    font-size: 16px;
+}
+/*=======contact start=======*/
+.contact {
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+.contact_content p {
+    font-size: 19px;
+}
+.email {
+    height: 45px;
+}
+.btn-custom {
+    height: 45px;
+}
+.contact_content ul li a {
+    font-size: 40px;
+}
+/*=======contact end=======*/
+/*footer start*/
+.footer {
+    margin-top: 70px;
+}
+
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+ /*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { ... }
